@@ -5,6 +5,7 @@
 body{
     background-color:#FFD166;
     text-align: center;
+    
 }
 .container{
     height: 70vh;
@@ -31,6 +32,8 @@ body{
     border-radius: 0;
     background-color: hwb(0 93% 7%);
     border: 0;
+    font-size:100px;
+    color: hwb(346 51% 6%);
 }
 .box:hover{
     border: 10px solid hwb(346 51% 6%);
