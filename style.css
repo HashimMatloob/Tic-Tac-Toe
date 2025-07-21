@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:#FFD166;
+    background-color:#3a0ca3;
     text-align: center;
     
 }
@@ -15,6 +15,7 @@ body{
    align-items: center;
 }
 .game{
+    margin-top:100px;
     height: 60vmin;
     width: 60vmin;
    display: flex;
@@ -22,8 +23,9 @@ body{
    justify-content: center;
    align-items: center;
    gap:1.5vmin;
-   background-color:#06D6A0 ;
+   background-color:#f72585 ;
        box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.5);
+       
 
 }
 .box{
@@ -32,19 +34,73 @@ body{
     border-radius: 0;
     background-color: hwb(0 93% 7%);
     border: 0;
-    font-size:100px;
-    color: hwb(346 51% 6%);
+    font-size:8vmin;
+    color:#3a0ca3;
+    transition: background-color 0.2s ease-in-out,transform 0.3s ease-in;
 }
+
 .box:hover{
-    border: 10px solid hwb(346 51% 6%);
-    background-color: rgb(246, 246, 246);
+transform: (1.1);
+    background-color: rgb(255, 227, 227);
 }
 .reset{
-  padding: .75rem;
-  font-size: 2rem;
-  
-    background-color: #06D6A0;
-    border: 0;
-border-radius: 1rem;
-    color: white;
+    margin-top: 4.5%;
+color: azure;
+   padding: 25px 50px;
+    background-color: #f72585;
+   border-radius: 10px;
+    font-size:34px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ transition:  background-color 0.2s ease-in-out;
+
+}
+.reset:hover{
+
+color: #fff8e7;
+background-color: #ff75b3;
+
+}
+
+.msg-container{
+    display: none;
+}
+.hide{
+    display:none;
+}
+.winner{
+    padding: 100px 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f72585;
+    color:whitesmoke;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.newgame{
+    background-color: #3a0ca3;
+    color:whitesmoke;
+    padding: 30px 60px;
+    margin-top: 180px;
+    border-radius: 20px;
+    font-size:x-large;
+    border:2px solid rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.2s ease-in-out;
+
+}
+.newgame:hover{
+    border:2px solid hsl(229, 96%, 91%);
+    background-color: #4361ee;
+color: hsl(0, 0%, 100%);
+}
+.intro{
+   color:white;
+   padding: 25px ;
+    background: #f72585;
+    display: flex;
+    justify-content: center;
+
 }
