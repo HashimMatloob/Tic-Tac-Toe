@@ -80,3 +80,37 @@ count=0;
 }
 newgame.addEventListener("click",resetBtn);
 reset.addEventListener("click",resetBtn);
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+//just checking if adding comments is going to increase the code size for github
+
+console.log("hlo git");
