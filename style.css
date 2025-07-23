@@ -46,10 +46,10 @@ transform: (1.1);
 .reset{
     margin-top: 4.5%;
 color: azure;
-   padding: 25px 50px;
+   padding: 2vmin 6vmin;
     background-color: #f72585;
    border-radius: 10px;
-    font-size:34px;
+    font-size:5vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  transition:  background-color 0.2s ease-in-out;
 
@@ -68,12 +68,11 @@ background-color: #ff75b3;
     display:none;
 }
 .winner{
-    padding: 100px 400px;
+    padding: 2 400px;
     justify-content: center;
     align-items: center;
     background-color: #f72585;
     color:whitesmoke;
-   
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
@@ -82,7 +81,7 @@ background-color: #ff75b3;
 .newgame{
     background-color: #3a0ca3;
     color:whitesmoke;
-    padding: 30px 60px;
+    padding: 3vmin 10vmin;
     margin-top: 180px;
     border-radius: 20px;
     font-size:x-large;
@@ -98,9 +97,9 @@ color: hsl(0, 0%, 100%);
 }
 .intro{
    color:white;
-   padding: 25px ;
+   padding: 1vmin ;
     background: #f72585;
     display: flex;
     justify-content: center;
-
+font-size: 4vh;
 }
