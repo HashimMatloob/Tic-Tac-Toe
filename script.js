@@ -1,13 +1,13 @@
 const WIN_PATTERNS = [
-  [0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8],
-  [0, 3, 6],
-  [1, 4, 7],
-  [2, 5, 8],
-  [0, 4, 8],
-  [2, 4, 6],
-];
+                        [0, 1, 2],
+                        [3, 4, 5],
+                        [6, 7, 8],
+                        [0, 3, 6],
+                        [1, 4, 7],
+                        [2, 5, 8],
+                        [0, 4, 8],
+                        [2, 4, 6],
+                     ];
 
 let gameState = {
   board: Array(9).fill(""),
@@ -37,21 +37,21 @@ function initializeGame() {
 
 function clearBoard() {
   gameElements.boxes.forEach((box) => {
-    box.innerText = "";
-    box.style.color = "";
-    box.style.textShadow = "";
-    box.disabled = false;
+      box.innerText = "";
+      box.style.color = "";
+      box.style.textShadow = "";
+      box.disabled = false;
   });
 }
 
 function enableAllBoxes() {
-  gameElements.boxes.forEach((box) => {
+    gameElements.boxes.forEach((box) => {
     box.disabled = false;
   });
 }
 
 function disableAllBoxes() {
-  gameElements.boxes.forEach((box) => {
+    gameElements.boxes.forEach((box) => {
     box.disabled = true;
   });
 }
@@ -91,7 +91,7 @@ function switchPlayer() {
 
 function checkWinner() {
   return WIN_PATTERNS.some((pattern) => {
-    const [a, b, c] = pattern;
+      const [a, b, c] = pattern;
     return (
       gameState.board[a] !== "" &&
       gameState.board[a] === gameState.board[b] &&
@@ -135,7 +135,7 @@ function attachEventListeners() {
 
   gameElements.newGameBtn.addEventListener("click", initializeGame);
 
-  // Keyboard support for accessibility
+  
   gameElements.boxes.forEach((box, index) => {
     box.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
