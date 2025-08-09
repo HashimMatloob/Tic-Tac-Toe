@@ -27,11 +27,6 @@ JavaScript
 
 [Play it here](https://hashimmatloob.github.io/Tic-Tac-Toe/)<!-- Replace with your GitHub Pages link -->
 
-
-## Contributing
-
-If you're learning too, feel free to open issues or suggestions. Beginners are welcome.
-
 ## Credits
 
 Special thanks to [@anmolsah](https://github.com/anmolsah) for significantly improving the user interface and helping bring this project to life.
